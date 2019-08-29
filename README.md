@@ -1,4 +1,4 @@
-# Projeto java Formulario
+# Projeto java Formulário
 **Athor:Allan**
 **Data:?/07/2019**
 **Linguagem:Java**
@@ -10,6 +10,7 @@ Connectivity (JDBC)*
 
  ## Tabela de Cadastro:
 
+> Formulário
 |#Nome                |      #sexo         | #Data     | #CPF |      
 |:--------------------|:------------------:|-----------|-----:|
 |Newton               |        M           |2000/0/0   |100033|
@@ -36,12 +37,14 @@ cpf VARCHAR(10),
 ```
 ##Java
 
+  >  DRIVE = "com.mysql.jdbc.Driver";
+  > "jdbc:mysql://localhost:3306/dbpizzaria";
+  >  USER = "root";
+  >  PASS = "root";
+  
 > Classes import
 
-
 > ### JAVA.SQL E JAVAX.SQL
-
-> [!NOTE]
 > import com.mysql.jdbc.Driver;
 > import java.sql.Connection;
 > import java.sql.DriverManager;
@@ -49,12 +52,5 @@ cpf VARCHAR(10),
 > import java.sql.ResultSet;
 > import java.sql.SQLException;
 
-> [!NOTE]
-> This is a NOTE
 
-> [!IMPORTANT]
-> 
-
-> [!WARNING]
-> This is a WARNING
 
