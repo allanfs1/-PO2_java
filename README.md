@@ -38,11 +38,13 @@ cpf VARCHAR(10),
 ```
 ##Java
 
-  >  DRIVE = "com.mysql.jdbc.Driver";
-  > "jdbc:mysql://localhost:3306/dbpizzaria";
-  >  USER = "root";
-  >  PASS = "root";
-  
+ - String de Coneção
+   - DRIVE = "com.mysql.jdbc.Driver";
+   - "jdbc:mysql://localhost:3306/dbpizzaria";
+   -  USER = "root";
+   -   PASS = "root";
+ - fim
+ 
 > Classes import
 
 > ### JAVA.SQL E JAVAX.SQL
