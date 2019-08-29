@@ -38,8 +38,10 @@ cpf VARCHAR(10),
 
 > Classes import
 
-> [!NOTE]
+
 > ### JAVA.SQL E JAVAX.SQL
+
+> [!NOTE]
 > import com.mysql.jdbc.Driver;
 > import java.sql.Connection;
 > import java.sql.DriverManager;
