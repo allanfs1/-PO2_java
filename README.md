@@ -49,6 +49,8 @@ cpf VARCHAR(10),
 > import java.sql.ResultSet;
 > import java.sql.SQLException;
 
+> [!NOTE]
+> This is a NOTE
 
 > [!IMPORTANT]
 > 
