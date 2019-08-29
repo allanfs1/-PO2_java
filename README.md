@@ -20,3 +20,17 @@ Connectivity (JDBC)*
 |---------------------|--------------------|-----------|------|
 
 
+**##SQL**
+
+```sql
+CREATE TABLE tb_Pessoas (
+id_pessoas INT NOT NULL AUTO_INCREMENT,
+nome VARCHAR(50) NOT NULL,
+idade tinyint(255),
+dt_nacimento DATE  DEFAULT "2000/6/1/",
+sexo ENUM('M','F'),
+rg  VARCHAR(10) NOT NULL,
+cpf VARCHAR(10),
+  CONSTRAINT PK_pessoas PRIMARY KEY (id_pessoas)
+)ENGINE = innoDB;
+```
