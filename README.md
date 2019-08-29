@@ -36,13 +36,21 @@ cpf VARCHAR(10),
 ```
 ##Java
 
->Classes import
+> Classes import
 
->[!IMPORTANT]
-import com.mysql.jdbc.Driver;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+> [!NOTE]
+> ### JAVA.SQL E JAVAX.SQL
+> import com.mysql.jdbc.Driver;
+> import java.sql.Connection;
+> import java.sql.DriverManager;
+> import java.sql.PreparedStatement;
+> import java.sql.ResultSet;
+> import java.sql.SQLException;
+
+
+> [!IMPORTANT]
+> 
+
+> [!WARNING]
+> This is a WARNING
 
