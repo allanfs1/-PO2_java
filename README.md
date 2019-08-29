@@ -43,17 +43,17 @@ cpf VARCHAR(10),
    - "jdbc:mysql://localhost:3306/dbpizzaria";
    -  USER = "root";
    -   PASS = "root";
- - fim
+ - conect
  
 > Classes import
 
-> ### JAVA.SQL E JAVAX.SQL
-> import com.mysql.jdbc.Driver;
-> import java.sql.Connection;
-> import java.sql.DriverManager;
-> import java.sql.PreparedStatement;
-> import java.sql.ResultSet;
-> import java.sql.SQLException;
+- ### JAVA.SQL E JAVAX.SQL
+- import com.mysql.jdbc.Driver;
+- import java.sql.Connection;
+- import java.sql.DriverManager;
+- import java.sql.PreparedStatement;
+- import java.sql.ResultSet;
+- import java.sql.SQLException;
 
 
 
