@@ -20,7 +20,7 @@ Connectivity (JDBC)*
 |---------------------|--------------------|-----------|------|
 
 
-**##SQL**
+**SQL**
 
 ```sql
 CREATE TABLE tb_Pessoas (
@@ -34,3 +34,15 @@ cpf VARCHAR(10),
   CONSTRAINT PK_pessoas PRIMARY KEY (id_pessoas)
 )ENGINE = innoDB;
 ```
+##Java
+
+>Classes import
+
+>[!IMPORTANT]
+import com.mysql.jdbc.Driver;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
